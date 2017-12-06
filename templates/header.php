@@ -1,6 +1,6 @@
 <?php
 
-include("../defaults/defaults.php");
+var_dump("WHAT?: ", $page_wide);
 ?>
 
 
@@ -15,7 +15,7 @@ include("../defaults/defaults.php");
 		<?php
 			foreach($page_wide["styles"] as $style) {
 
-				echo "<link rel='stylesheet' type='text/css' href='../$style'>";
+				echo "<link rel='stylesheet' type='text/css' href='$style'>";
 			}
 		?>
 	</head>
